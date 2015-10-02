@@ -9,8 +9,8 @@ mailcatcher --http-ip=0.0.0.0
 # Limpa os arquivos de Log
 # ---------------------------------
 echo "Truncate error.log and access.log"
-truncate -s 0 /var/www/html/error.log
-truncate -s 0 /var/www/html/access.log
+truncate -s 0 /var/www/html/vagrant-lamp/logs/error.log
+truncate -s 0 /var/www/html/vagrant-lamp/logs/access.log
 
 
 # Lista todos ips
